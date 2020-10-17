@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		591D0759253B5C290008098A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591D0758253B5C290008098A /* AppDelegate.swift */; };
 		591D075B253B5C290008098A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591D075A253B5C290008098A /* SceneDelegate.swift */; };
-		591D075D253B5C290008098A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591D075C253B5C290008098A /* ViewController.swift */; };
+		591D075D253B5C290008098A /* BatamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591D075C253B5C290008098A /* BatamVC.swift */; };
 		591D0760253B5C290008098A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591D075E253B5C290008098A /* Main.storyboard */; };
 		591D0762253B5C2C0008098A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591D0761253B5C2C0008098A /* Assets.xcassets */; };
 		591D0765253B5C2C0008098A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591D0763253B5C2C0008098A /* LaunchScreen.storyboard */; };
+		591D076F253B5FF90008098A /* JakartaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591D076E253B5FF90008098A /* JakartaVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		591D0755253B5C290008098A /* toko-bunga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "toko-bunga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		591D0758253B5C290008098A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		591D075A253B5C290008098A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		591D075C253B5C290008098A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		591D075C253B5C290008098A /* BatamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatamVC.swift; sourceTree = "<group>"; };
 		591D075F253B5C290008098A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		591D0761253B5C2C0008098A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		591D0764253B5C2C0008098A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		591D0766253B5C2C0008098A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		591D076E253B5FF90008098A /* JakartaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JakartaVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				591D0758253B5C290008098A /* AppDelegate.swift */,
 				591D075A253B5C290008098A /* SceneDelegate.swift */,
-				591D075C253B5C290008098A /* ViewController.swift */,
+				591D075C253B5C290008098A /* BatamVC.swift */,
+				591D076E253B5FF90008098A /* JakartaVC.swift */,
 				591D075E253B5C290008098A /* Main.storyboard */,
 				591D0761253B5C2C0008098A /* Assets.xcassets */,
 				591D0763253B5C2C0008098A /* LaunchScreen.storyboard */,
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				591D075D253B5C290008098A /* ViewController.swift in Sources */,
+				591D075D253B5C290008098A /* BatamVC.swift in Sources */,
+				591D076F253B5FF90008098A /* JakartaVC.swift in Sources */,
 				591D0759253B5C290008098A /* AppDelegate.swift in Sources */,
 				591D075B253B5C290008098A /* SceneDelegate.swift in Sources */,
 			);
