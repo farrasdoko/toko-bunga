@@ -14,6 +14,7 @@
 		591D0762253B5C2C0008098A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591D0761253B5C2C0008098A /* Assets.xcassets */; };
 		591D0765253B5C2C0008098A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591D0763253B5C2C0008098A /* LaunchScreen.storyboard */; };
 		591D076F253B5FF90008098A /* JakartaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591D076E253B5FF90008098A /* JakartaVC.swift */; };
+		60AFB3192708969000CBE7F3 /* Florist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AFB3182708969000CBE7F3 /* Florist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		591D0764253B5C2C0008098A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		591D0766253B5C2C0008098A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		591D076E253B5FF90008098A /* JakartaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JakartaVC.swift; sourceTree = "<group>"; };
+		60AFB3182708969000CBE7F3 /* Florist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Florist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				591D075A253B5C290008098A /* SceneDelegate.swift */,
 				591D075C253B5C290008098A /* BatamVC.swift */,
 				591D076E253B5FF90008098A /* JakartaVC.swift */,
+				60AFB3182708969000CBE7F3 /* Florist.swift */,
 				591D075E253B5C290008098A /* Main.storyboard */,
 				591D0761253B5C2C0008098A /* Assets.xcassets */,
 				591D0763253B5C2C0008098A /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60AFB3192708969000CBE7F3 /* Florist.swift in Sources */,
 				591D075D253B5C290008098A /* BatamVC.swift in Sources */,
 				591D076F253B5FF90008098A /* JakartaVC.swift in Sources */,
 				591D0759253B5C290008098A /* AppDelegate.swift in Sources */,
