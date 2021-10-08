@@ -14,6 +14,7 @@
 		591D0762253B5C2C0008098A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591D0761253B5C2C0008098A /* Assets.xcassets */; };
 		591D0765253B5C2C0008098A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591D0763253B5C2C0008098A /* LaunchScreen.storyboard */; };
 		591D076F253B5FF90008098A /* JakartaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591D076E253B5FF90008098A /* JakartaVC.swift */; };
+		59E485D627109A9E000F3308 /* YogyakartaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E485D527109A9E000F3308 /* YogyakartaVC.swift */; };
 		605F1134270DE0DE00DACC34 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 605F1133270DE0DD00DACC34 /* README.md */; };
 		60AFB3192708969000CBE7F3 /* Florist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AFB3182708969000CBE7F3 /* Florist.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,7 @@
 		591D0764253B5C2C0008098A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		591D0766253B5C2C0008098A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		591D076E253B5FF90008098A /* JakartaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JakartaVC.swift; sourceTree = "<group>"; };
+		59E485D527109A9E000F3308 /* YogyakartaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogyakartaVC.swift; sourceTree = "<group>"; };
 		605F1133270DE0DD00DACC34 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		60AFB3182708969000CBE7F3 /* Florist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Florist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +69,7 @@
 				591D075A253B5C290008098A /* SceneDelegate.swift */,
 				591D075C253B5C290008098A /* BatamVC.swift */,
 				591D076E253B5FF90008098A /* JakartaVC.swift */,
+				59E485D527109A9E000F3308 /* YogyakartaVC.swift */,
 				60AFB3182708969000CBE7F3 /* Florist.swift */,
 				591D075E253B5C290008098A /* Main.storyboard */,
 				591D0761253B5C2C0008098A /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 				591D075D253B5C290008098A /* BatamVC.swift in Sources */,
 				591D076F253B5FF90008098A /* JakartaVC.swift in Sources */,
 				591D0759253B5C290008098A /* AppDelegate.swift in Sources */,
+				59E485D627109A9E000F3308 /* YogyakartaVC.swift in Sources */,
 				591D075B253B5C290008098A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
