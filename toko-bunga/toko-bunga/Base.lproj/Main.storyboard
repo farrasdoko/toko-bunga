@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GnC-FH-cIm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GnC-FH-cIm">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -66,11 +65,12 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="btW-Bc-Ml7"/>
                         <segue destination="mqM-og-6Br" kind="relationship" relationship="viewControllers" id="eDU-k0-uUf"/>
+                        <segue destination="HvQ-nO-tkC" kind="relationship" relationship="viewControllers" id="3vI-zt-ldM"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vZL-kw-NcQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="71" y="457"/>
+            <point key="canvasLocation" x="-49" y="799"/>
         </scene>
         <!--Jakarta-->
         <scene sceneID="PZ7-eI-sPF">
@@ -116,8 +116,53 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="798.88392857142856"/>
         </scene>
+        <!--Yogyakarta-->
+        <scene sceneID="hIx-gI-YON">
+            <objects>
+                <viewController storyboardIdentifier="YogyakartaVC" id="HvQ-nO-tkC" customClass="YogyakartaVC" customModule="toko_bunga" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TOy-B2-7CR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cnx-oh-45Z">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </mapView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devika Florist Jogja" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KPa-5Q-kej">
+                                <rect key="frame" x="16" y="68" width="382" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3Sx-kj-4Ln"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZUH-f7-8Wy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cnx-oh-45Z" firstAttribute="top" secondItem="TOy-B2-7CR" secondAttribute="top" id="73Z-yv-5rK"/>
+                            <constraint firstItem="cnx-oh-45Z" firstAttribute="leading" secondItem="ZUH-f7-8Wy" secondAttribute="leading" id="8Z1-fu-DeJ"/>
+                            <constraint firstItem="KPa-5Q-kej" firstAttribute="leading" secondItem="ZUH-f7-8Wy" secondAttribute="leading" constant="16" id="S1h-J8-i5k"/>
+                            <constraint firstItem="KPa-5Q-kej" firstAttribute="top" secondItem="ZUH-f7-8Wy" secondAttribute="top" constant="24" id="X43-MU-fTd"/>
+                            <constraint firstItem="ZUH-f7-8Wy" firstAttribute="trailing" secondItem="cnx-oh-45Z" secondAttribute="trailing" id="b8q-Dm-kom"/>
+                            <constraint firstItem="ZUH-f7-8Wy" firstAttribute="trailing" secondItem="KPa-5Q-kej" secondAttribute="trailing" constant="16" id="gIz-cV-hjs"/>
+                            <constraint firstAttribute="bottom" secondItem="cnx-oh-45Z" secondAttribute="bottom" id="rv0-va-Ztk"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Yogyakarta" image="filemenu.and.selection" catalog="system" selectedImage="filemenu.and.selection" id="9Z0-mG-Hx2"/>
+                    <connections>
+                        <outlet property="lblPlace" destination="KPa-5Q-kej" id="svR-ty-hwg"/>
+                        <outlet property="mapView" destination="cnx-oh-45Z" id="v6N-nP-fwv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N2L-zJ-SMQ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1048" y="1485"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="filemenu.and.selection" catalog="system" width="128" height="93"/>
         <image name="flame" catalog="system" width="108" height="128"/>
         <image name="tuningfork" catalog="system" width="128" height="116"/>
         <systemColor name="systemBackgroundColor">
